@@ -14,7 +14,7 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
   binding.pry
-  text.match(/^\[a-z][A-Z]/)
+  text.match(/^\b\[a-z][A-Z]\b/)
 end
 
 def valid_phone_number?(phone)
