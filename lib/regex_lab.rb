@@ -17,6 +17,5 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-binding.pry
 phone.match(/\b\d{9}\b/) != nil ? true : false
 end
