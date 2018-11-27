@@ -18,5 +18,5 @@ end
 
 def valid_phone_number?(phone)
 binding.pry
-phone.match(/\b\d{9}\b/)
+phone.match(/\b\d{9}\b/) != nil ? true : false
 end
